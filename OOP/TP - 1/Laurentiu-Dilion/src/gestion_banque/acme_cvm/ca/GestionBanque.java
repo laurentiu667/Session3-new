@@ -80,7 +80,7 @@ public class GestionBanque {
         }
 
         if (compteBancaire[1].depot(depot2) == -1){
-            System.out.println("Transaction invalide, non complétée")
+            System.out.println("Transaction invalide, non complétée");
         }
         else if (compteBancaire[1].depot(depot2) == 0) {
             System.out.println("Transaction valide le nouveau solde est $ " + compteBancaire[1].getSolde());
@@ -136,9 +136,9 @@ public class GestionBanque {
         System.out.println("\n");
         for (int i = 0; i < nombre_de_compte; i++){
             System.out.println(
-                    "Le compte numéro "    + compteBancaire[i].getNoCompte()
+                              "Le compte numéro "    + compteBancaire[i].getNoCompte()
                             + " du client "          + compteBancaire[i].getNoClient()
-                            + " est un compte "     + compteBancaire[i].getTypeCompte()
+                            + " est un compte "      + compteBancaire[i].getTypeCompte()
                             + " et a un solde de $ " + compteBancaire[i].getSolde()
             );
         }

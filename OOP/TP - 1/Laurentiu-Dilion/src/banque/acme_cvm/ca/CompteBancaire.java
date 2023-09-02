@@ -47,7 +47,7 @@ public class CompteBancaire {
             return -1;
         }
         else {
-            this.solde += montant
+            this.solde += montant;
             return 0;
         }
     }
